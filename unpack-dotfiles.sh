@@ -10,7 +10,7 @@ echo "Checking for ZSH"
 which zsh
 
 # check to see if which found zsh
-if [ $? > 0]
+if [ $? > 0 ]
 then
     echo "ZSH not found!"
 else
