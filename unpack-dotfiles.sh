@@ -23,7 +23,7 @@ if [ $? > 0 ]
 then
     echo "ZSH not found!"
     echo "Please install ZSH first, and then run the following command:"
-    echo "     sh -c \"$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\""
+    echo "     sh -c \"\$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\""
     exit 1
 else
     echo "ZSH found!"
