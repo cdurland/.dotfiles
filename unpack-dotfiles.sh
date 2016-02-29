@@ -19,7 +19,7 @@ echo "Checking for ZSH"
 which zsh
 
 # check to see if which found zsh
-if [ echo $? > 0 ]
+if [ $? > 0 ]
 then
     echo "ZSH not found!"
     echo "Please install ZSH first, and then run the following command:"
